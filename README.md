@@ -83,7 +83,6 @@ Just reliable navigation fallback.
   <img src="./img/example.png" width="600" alt="demo gif placeholder">
 </p>
 
-> Replace this GIF with your own demo showing:
 > - Online page load
 > - DevTools → Offline mode
 > - Refresh → Offline page appears
