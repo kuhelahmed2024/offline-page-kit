@@ -157,42 +157,30 @@ Install → Activate → Control → Fetch
 
 ```tsx
 
-// #/utils/SWRegister.tsx
+// #/app/page.tsx
 "use client";
 
 import { useEffect } from "react";
 import { registerOfflineKit } from "offline-page-kit";
 
-export default function SWRegister() {
+export default function Home() {
   useEffect(() => {
-    registerOfflineKit({ debug: true });
+    registerOfflineKit(
+      {
+        swUrl: "/sw.js",
+        scope: "/",
+        debug: true
+      }
+    );
   }, []);
-  return null;
-}
-
-
-
-// Root layout
-import SWRegister from "@/utils/SWRegister";
-
-// ...
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-        <SWRegister />
-      </body>
-    </html>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1 className="text-4xl font-bold">You are Online.</h1>
+    </main>
   );
 }
+
+
 
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "offline-page-kit",
-  "version": "0.2.2",
+  "version": "0.3.3",
   "description": "Framework-agnostic offline page + service worker generator (TypeScript)",
   "license": "MIT",
   "author": {
@@ -11,10 +11,10 @@
   "homepage": "https://devcrack.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/offline-page-kit.git"
+    "url": "git+https://github.com/kuhelahmed2024/offline-page-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/offline-page-kit/issues"
+    "url": "https://github.com/kuhelahmed2024/offline-page-kit/issues"
   },
   "funding": {
     "type": "individual",
