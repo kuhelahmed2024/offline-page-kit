@@ -77,6 +77,19 @@ Just reliable navigation fallback.
 
 ---
 
+# 🟣 Demo
+
+<p align="center">
+  <img src="https://github.com/kuhelahmed2024/offline-page-kit/blob/main/img/example.gif" width="600" alt="demo gif placeholder">
+</p>
+
+> Replace this GIF with your own demo showing:
+> - Online page load
+> - DevTools → Offline mode
+> - Refresh → Offline page appears
+
+---
+
 # 🚀 Quick Start
 
 ### 1️⃣ Install
