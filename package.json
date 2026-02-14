@@ -1,0 +1,64 @@
+{
+  "name": "offline-page-kit",
+  "version": "0.2.2",
+  "description": "Framework-agnostic offline page + service worker generator (TypeScript)",
+  "license": "MIT",
+  "author": {
+    "name": "MD Kuhel Ahmed",
+    "email": "kuhelahmed84@gmail.com",
+    "url": "https://devcrack.dev"
+  },
+  "homepage": "https://devcrack.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/offline-page-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/offline-page-kit/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://www.youtube.com/@dev-crack"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "bin": {
+    "offline-page-kit": "./dist/cli.cjs"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "offline",
+    "offline-page",
+    "service-worker",
+    "pwa",
+    "service worker",
+    "generator",
+    "typescript",
+    "nextjs",
+    "vite",
+    "framework-agnostic"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
